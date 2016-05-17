@@ -1,5 +1,9 @@
 CFLAGS=-Wall -g
 
+gao:
+	rm -f gao
+	make gao
+
 clean:
 	rm -f ex1
 	rm -f ex3
@@ -9,6 +13,11 @@ clean:
 	rm -f ex6
 	rm -f ex7
 	rm -f ex8
+	rm -f ex9
+	rm -f ex10
+	rm -f ex11
+	rm -f ex12
+	rm -f ex16
 
 all:
 	make ex1
@@ -18,3 +27,8 @@ all:
 	make ex6
 	make ex7
 	make ex8
+	make ex9
+	make ex10
+	make ex11
+	make ex12
+	make ex16
