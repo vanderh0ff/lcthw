@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#blag
 int main(int argc, char *argv[])
 {
     // go through each string in argv
